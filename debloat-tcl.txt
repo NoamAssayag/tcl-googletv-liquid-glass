@@ -1,0 +1,42 @@
+# TCL Google TV (testé sur un TCL 65C845, Android 12)
+# Un paquet par ligne. Rien n'est désinstallé: les paquets sont seulement désactivés (réversible).
+# Les paquets absents de ta télé sont simplement ignorés. Mets un # devant une ligne pour la garder.
+
+# Suivi et statistiques TCL
+com.tcl.ttvs
+com.tcl.logkit
+com.tcl.usercenter
+
+# Contenus, pubs et promotions TCL
+com.tcl.channelplus
+com.tcl.tv.tclhome_passive
+com.tcl.partnercustomizer
+com.tcl.interactive
+com.tcl.messagebox
+com.tcl.waterfall.overseas
+
+# Mode démo / hôtel
+com.tcl.exhibit
+com.tcl.esticker
+com.tcl.hotelmenu
+
+# Apps et services préinstallés
+com.tcl.ocean.instructions
+com.tcl.repairguide
+com.tcl.smartalexa
+com.tcl.guard
+android.autoinstalls.config.google.gtvpai
+com.google.android.partnersetup
+com.google.android.feedback
+com.android.tv.feedbackconsent
+com.google.android.play.games
+com.google.android.youtube.tvmusic
+
+# Optionnel: retire le # si tu ne les utilises pas
+# com.tcl.miracast
+# com.tcl.magiconnectfree
+# com.tcl.ui_mediaCenter
+# com.tcl.gallery
+# com.tcl.UpdatePeripheral
+
+# Gardés volontairement: Play Store, Chromecast (mediashell), AirPlay, jeux (gamebar)
